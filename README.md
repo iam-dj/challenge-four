@@ -14,7 +14,7 @@ No installation needed.
 
 ## Usage
 
-head to this link:  and click the "ready to play" button to start. You'll then be taken through a series of questions that you click a button to guess. Be careful, wrong guesses are penalized. 
+head to this link: https://iam-dj.github.io/challenge-four/  and click the "ready to play" button to start. You'll then be taken through a series of questions that you click a button to guess. Be careful, wrong guesses are penalized. 
 
 
     ```md
