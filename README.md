@@ -1,5 +1,42 @@
 # challenge-four
 
+Building a quiz with CSS, HTML, & JS
+
+## Description
+
+Building a timed coding quiz with multiple-choice questions provides an interactive and engaging way to learn and practice coding concepts.
+
+This project allowed me to test my coding knowledge and skills, and to practice solving coding problems. Additionally, it was fun. It did help me identify areas to improve such as local storage.
+
+## Installation
+
+No installation needed.
+
+## Usage
+
+head to this link:  and click the "ready to play" button to start. You'll then be taken through a series of questions that you click a button to guess. Be careful, wrong guesses are penalized. 
+
+
+    ```md
+    ![alt text](./assets/images/Screen%20Shot%202023-04-02%20at%209.07.13%20PM.png)
+    ```
+     ```md
+    ![alt text](./assets/images/Screen%20Shot%202023-04-02%20at%209.07.21%20PM.png)
+    ```
+     ```md
+    ![alt text](./assets/images/Screen%20Shot%202023-04-02%20at%209.07.31%20PM.png)
+    ```
+     ```md
+    ![alt text](./assets/images/Screen%20Shot%202023-04-02%20at%209.07.38%20PM.png)
+    ```
+
+## Credits
+
+N/A
+
+## License
+
+N/A
 
 ## User Story
 
