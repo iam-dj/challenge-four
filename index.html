@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Online Quiz</title>
+</head>
+<body>
+    <header>
+      <section class="score">
+        <button class="score">High Scores</button> </section>
+      <section class="timer">Timer</section>
+    </header>
+    <main>
+      <h1>Coding Quiz Challenge</h1>
+      <button class="box1">Answer to the question</button>
+      <button class="box2">Answer to the question</button>
+      <button class="box3">Answer to the question</button>
+      <button class="box4">Answer to the question</button>
+      
+      <br />
+      <div class="card">
+        <h1>High Scores</h1>
+        <form id="name-form" method="POST">
+          <label for="name-text">Add your name : </label>
+          <input type="text" placeholder="Name " name="name-text" id="name-text" />
+        </form>
+        <p> <span id="name-count"></span></p>
+        <ul id="name-list"></ul>
+    
+    </div>
+    <button id="play-button">Ready to Play</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+  </html>

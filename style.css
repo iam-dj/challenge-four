@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the selectable boxes */
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 35px;
+  background-color: gray;
+  margin: 10px;
+  cursor: pointer;
+  flex-basis: 100%;
+}
+
+/* Highlight the selected box */
+.selected {
+  border: 3px solid blue;
+}
+
+/* Style the header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+/* Style the left-aligned element */
+.score {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Style the right-aligned element */
+.timer {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Center the main section */
+main {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style the play button */
+#play-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 7px 10px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  display: none;
+  background-color: #ffffe0;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  margin: 60px auto;
+  padding: 20px;
+  width: 80vw;
+}
+
+label,
+p {
+  font-size: 15px;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 2em;
+  border: 1px solid #001b44;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: white;
+}
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #001b44;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+li button {
+  float: right;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ff7034;
+  color: white;
+  font-size: 1em;
+}
