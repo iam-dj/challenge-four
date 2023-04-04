@@ -32,7 +32,7 @@ head to this link: https://iam-dj.github.io/challenge-four/  and click the "read
 
 ## Credits
 
-N/A
+Activity 26 from week 2
 
 ## License
 

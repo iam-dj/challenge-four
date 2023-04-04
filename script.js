@@ -14,6 +14,8 @@ var nameFill = document.querySelector("#name-form");
 var playerTotal = document.querySelector("#name-list");
 var highScoreTotal = document.querySelector("#name-count");
 
+
+
 // initializing my global variables to call in and out of functions
 var names = [];
 var secondsLeft = 300;
